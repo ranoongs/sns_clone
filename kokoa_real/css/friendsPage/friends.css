@@ -1,0 +1,76 @@
+#friends-display-link{
+    margin-top: 130px;
+    text-align: center;
+    display: block;
+    background-color: #fafafa;
+    padding: 15px 0px;
+   
+}
+
+#friends-display-link i {
+    color:rgba(0,0,0,0.4);
+}
+
+.main-screen{
+    margin-top: 125px;
+    padding: 20px var(--horizontal-space);  
+}
+.main-screenf{
+    margin: 20px;
+}
+
+.friends-screen__channel{
+    margin-top: 25px;
+    border-top:1px solid rgba(0,0,0,0.2);
+    padding-top: 15px;
+}
+.friends-screen__channel-header{
+       margin-bottom: 30px;
+       justify-content: space-between;
+       color: rgba(0,0,0,0.5);
+}
+@keyframes splash{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+#splash-screen{
+    background-color: var(--yellow);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:64px;
+    animation: splash 0.3s ease-in-out forwards;
+    animation-delay: 1.5s;
+    z-index: 4;
+    color:white;
+}
+.nav__btn:hover{
+    color: skyblue;
+}
+.nav__link:hover{
+    color: skyblue;
+}
+.fa-cog:hover{
+    color: skyblue;
+}
+.fa-music:hover{
+    color: skyblue;
+}
+.fa-search:hover{
+    color: skyblue;
+}
+.fa-comment-dots:hover{
+    color: skyblue;
+}
+.fa-angle-left:hover{
+    color: skyblue;
+}

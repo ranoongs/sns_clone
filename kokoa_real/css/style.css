@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import "reset.css";
+@import "variables.css";
+
+/*welcomPage*/
+@import "components/status-bar.css";
+@import "welcomePage/loginForm.css";
+
+/*friendsPage*/
+@import "components/nav-bar.css";
+@import "components/header.css";
+@import "friendsPage/friends.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+
+/*searchPage*/
+@import "findPage/find.css";
+
+@import "chatPage/chat.css";
+
+@import "components/alt-screen-header.css";
+
+@import "settingsPage/settings.css";
+
+@import "components/no-mobile.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+
+body{
+    font-family: 'Cute Font', cursive;
+    color: #2e363e;
+    height: 600px;
+}
+
+
+
